@@ -390,13 +390,11 @@ export default function App() {
                 <Three3DAssembly />
                 <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={1.5} />
                 <ContactShadows position={[0, -1.8, 0]} opacity={0.6} scale={8} blur={2} />
-              </Canvas>
-            </Suspense>
-          </div>
-    </div>
-  );
-}
-
-export default App;
-        
-   
+                      </Canvas>
+                     </Suspense>
+                    </div>
+                  </div>
+                </div>
+                );
+                }  
+           
