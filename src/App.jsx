@@ -393,5 +393,10 @@ export default function App() {
               </Canvas>
             </Suspense>
           </div>
+    </div>
+  );
+}
 
+export default App;
+        
    
